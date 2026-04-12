@@ -1,0 +1,53 @@
+### Python ###
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+### Environment ###
+.env
+.venv/
+env/
+
+### Jupyter ###
+.ipynb_checkpoints/
+*.ipynb
+
+### Data & outputs ###
+# Exclude generated benchmark CSVs (can be very large)
+data/*
+models/*
+
+# Keep placeholder files
+!data/README.md
+!models/README.md
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### HuggingFace cache (if local) ###
+.cache/
+
+### LaTeX build artifacts ###
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+
+### Misc ###
+inlp/
